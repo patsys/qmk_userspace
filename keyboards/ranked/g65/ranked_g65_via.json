@@ -42,24 +42,200 @@
                   1
                 ],
                 [
-                  "Breathing",
+                  "Alphas Mods",
                   2
                 ],
                 [
-                  "Cycle All",
+                  "Gradient Up Down",
                   3
                 ],
                 [
-                  "Rainbow Left/Right",
+                  "Gradient Left Right",
                   4
                 ],
                 [
-                  "Rainbow Up/Down",
+                  "Breathing",
                   5
                 ],
                 [
-                  "Rainbow Chevron",
+                  "Band Sat",
                   6
+                ],
+                [
+                  "Band Val",
+                  7
+                ],
+                [
+                  "Band Pinwheel Sat",
+                  8
+                ],
+                [
+                  "Band Pinwheel Val",
+                  9
+                ],
+                [
+                  "Band Spiral Sat",
+                  10
+                ],
+                [
+                  "Band Spiral Val",
+                  11
+                ],
+                [
+                  "Cycle All",
+                  12
+                ],
+                [
+                  "Cycle Left Right",
+                  13
+                ],
+                [
+                  "Cycle Up Down",
+                  14
+                ],
+                [
+                  "Rainbow Moving Chevron",
+                  15
+                ],
+                [
+                  "Cycle Out In",
+                  16
+                ],
+                [
+                  "Cycle Out In Dual",
+                  17
+                ],
+                [
+                  "Cycle Pinwheel",
+                  18
+                ],
+                [
+                  "Cycle Spiral",
+                  19
+                ],
+                [
+                  "Dual Beacon",
+                  20
+                ],
+                [
+                  "Rainbow Beacon",
+                  21
+                ],
+                [
+                  "Rainbow Pinwheels",
+                  22
+                ],
+                [
+                  "Flower Blooming",
+                  23
+                ],
+                [
+                  "Raindrops",
+                  24
+                ],
+                [
+                  "Jellybean Raindrops",
+                  25
+                ],
+                [
+                  "Hue Breathing",
+                  26
+                ],
+                [
+                  "Hue Pendulum",
+                  27
+                ],
+                [
+                  "Hue Wave",
+                  28
+                ],
+                [
+                  "Pixel Rain",
+                  29
+                ],
+                [
+                  "Pixel Flow",
+                  30
+                ],
+                [
+                  "Pixel Fractal",
+                  31
+                ],
+                [
+                  "Typing Heatmap",
+                  32
+                ],
+                [
+                  "Digital Rain",
+                  33
+                ],
+                [
+                  "Solid Reactive Simple",
+                  34
+                ],
+                [
+                  "Solid Reactive",
+                  35
+                ],
+                [
+                  "Solid Reactive Wide",
+                  36
+                ],
+                [
+                  "Solid Reactive Multi Wide",
+                  37
+                ],
+                [
+                  "Solid Reactive Cross",
+                  38
+                ],
+                [
+                  "Solid Reactive Multi Cross",
+                  39
+                ],
+                [
+                  "Solid Reactive Nexus",
+                  40
+                ],
+                [
+                  "Solid Reactive Multi Nexus",
+                  41
+                ],
+                [
+                  "Splash",
+                  42
+                ],
+                [
+                  "Multi Splash",
+                  43
+                ],
+                [
+                  "Solid Splash",
+                  44
+                ],
+                [
+                  "Solid Multi Splash",
+                  45
+                ],
+                [
+                  "Starlight Smooth",
+                  46
+                ],
+                [
+                  "Starlight",
+                  47
+                ],
+                [
+                  "Starlight Dual Sat",
+                  48
+                ],
+                [
+                  "Starlight Dual Hue",
+                  49
+                ],
+                [
+                  "Riverflow",
+                  50
                 ]
               ],
               "content": [

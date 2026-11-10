@@ -1,0 +1,399 @@
+{
+  "name": "Ranked Nova N60 (Neo2 VIA)",
+  "vendorId": "0x3532",
+  "productId": "0xA0A3",
+  "matrix": {
+    "rows": 6,
+    "cols": 11
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "Backlight",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_brightness",
+                3,
+                1
+              ]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "options": [
+                [
+                  "Off",
+                  0
+                ],
+                [
+                  "Solid Color",
+                  1
+                ],
+                [
+                  "Alphas Mods",
+                  2
+                ],
+                [
+                  "Gradient Up Down",
+                  3
+                ],
+                [
+                  "Gradient Left Right",
+                  4
+                ],
+                [
+                  "Breathing",
+                  5
+                ],
+                [
+                  "Band Sat",
+                  6
+                ],
+                [
+                  "Band Val",
+                  7
+                ],
+                [
+                  "Band Pinwheel Sat",
+                  8
+                ],
+                [
+                  "Band Pinwheel Val",
+                  9
+                ],
+                [
+                  "Band Spiral Sat",
+                  10
+                ],
+                [
+                  "Band Spiral Val",
+                  11
+                ],
+                [
+                  "Cycle All",
+                  12
+                ],
+                [
+                  "Cycle Left Right",
+                  13
+                ],
+                [
+                  "Cycle Up Down",
+                  14
+                ],
+                [
+                  "Rainbow Moving Chevron",
+                  15
+                ],
+                [
+                  "Cycle Out In",
+                  16
+                ],
+                [
+                  "Cycle Out In Dual",
+                  17
+                ],
+                [
+                  "Cycle Pinwheel",
+                  18
+                ],
+                [
+                  "Cycle Spiral",
+                  19
+                ],
+                [
+                  "Dual Beacon",
+                  20
+                ],
+                [
+                  "Rainbow Beacon",
+                  21
+                ],
+                [
+                  "Rainbow Pinwheels",
+                  22
+                ],
+                [
+                  "Flower Blooming",
+                  23
+                ],
+                [
+                  "Raindrops",
+                  24
+                ],
+                [
+                  "Jellybean Raindrops",
+                  25
+                ],
+                [
+                  "Hue Breathing",
+                  26
+                ],
+                [
+                  "Hue Pendulum",
+                  27
+                ],
+                [
+                  "Hue Wave",
+                  28
+                ],
+                [
+                  "Pixel Rain",
+                  29
+                ],
+                [
+                  "Pixel Flow",
+                  30
+                ],
+                [
+                  "Pixel Fractal",
+                  31
+                ],
+                [
+                  "Typing Heatmap",
+                  32
+                ],
+                [
+                  "Digital Rain",
+                  33
+                ],
+                [
+                  "Solid Reactive Simple",
+                  34
+                ],
+                [
+                  "Solid Reactive",
+                  35
+                ],
+                [
+                  "Solid Reactive Wide",
+                  36
+                ],
+                [
+                  "Solid Reactive Multi Wide",
+                  37
+                ],
+                [
+                  "Solid Reactive Cross",
+                  38
+                ],
+                [
+                  "Solid Reactive Multi Cross",
+                  39
+                ],
+                [
+                  "Solid Reactive Nexus",
+                  40
+                ],
+                [
+                  "Solid Reactive Multi Nexus",
+                  41
+                ],
+                [
+                  "Splash",
+                  42
+                ],
+                [
+                  "Multi Splash",
+                  43
+                ],
+                [
+                  "Solid Splash",
+                  44
+                ],
+                [
+                  "Solid Multi Splash",
+                  45
+                ],
+                [
+                  "Starlight Smooth",
+                  46
+                ],
+                [
+                  "Starlight",
+                  47
+                ],
+                [
+                  "Starlight Dual Sat",
+                  48
+                ],
+                [
+                  "Starlight Dual Hue",
+                  49
+                ],
+                [
+                  "Riverflow",
+                  50
+                ]
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect",
+                3,
+                2
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} > 1",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect_speed",
+                3,
+                3
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Color",
+              "type": "color",
+              "content": [
+                "id_qmk_rgb_matrix_color",
+                3,
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": {
+    "keymap": [
+      [
+        "0,0\n\n\n\nEsc",
+        "0,1\n\n\n\n1",
+        "0,2\n\n\n\n2",
+        "0,3\n\n\n\n3",
+        "0,4\n\n\n\n4",
+        "0,5\n\n\n\n5",
+        "0,6\n\n\n\n6",
+        "0,7\n\n\n\n7",
+        "0,8\n\n\n\n8",
+        "0,9\n\n\n\n9",
+        "0,10\n\n\n\n0",
+        "5,1\n\n\n\n-",
+        "5,2\n\n\n\n=",
+        {
+          "w": 2
+        },
+        "5,3\n\n\n\nBackspace"
+      ],
+      [
+        {
+          "w": 1.5
+        },
+        "1,0\n\n\n\nTab",
+        "1,1\n\n\n\nQ",
+        "1,2\n\n\n\nW",
+        "1,3\n\n\n\nE",
+        "1,4\n\n\n\nR",
+        "1,5\n\n\n\nT",
+        "1,6\n\n\n\nY",
+        "1,7\n\n\n\nU",
+        "1,8\n\n\n\nI",
+        "1,9\n\n\n\nO",
+        "1,10\n\n\n\nP",
+        "5,4\n\n\n\n[",
+        "5,5\n\n\n\n]",
+        {
+          "x": 0.25,
+          "w": 1.25,
+          "h": 2,
+          "w2": 1.5,
+          "h2": 1,
+          "x2": -0.25
+        },
+        "5,9\n\n\n\nEnter"
+      ],
+      [
+        {
+          "w": 1.75
+        },
+        "2,0\n\n\n\nCaps",
+        "2,1\n\n\n\nA",
+        "2,2\n\n\n\nS",
+        "2,3\n\n\n\nD",
+        "2,4\n\n\n\nF",
+        "2,5\n\n\n\nG",
+        "2,6\n\n\n\nH",
+        "2,7\n\n\n\nJ",
+        "2,8\n\n\n\nK",
+        "2,9\n\n\n\nL",
+        "2,10\n\n\n\n;",
+        "5,7\n\n\n\n'",
+        "5,8\n\n\n\n#"
+      ],
+      [
+        {
+          "w": 1.25
+        },
+        "3,0\n\n\n\nShift",
+        "3,1\n\n\n\n\\",
+        "3,2\n\n\n\nZ",
+        "3,3\n\n\n\nX",
+        "3,4\n\n\n\nC",
+        "3,5\n\n\n\nV",
+        "3,6\n\n\n\nB",
+        "3,7\n\n\n\nN",
+        "3,8\n\n\n\nM",
+        "3,9\n\n\n\n,",
+        "3,10\n\n\n\n.",
+        "4,8\n\n\n\n/",
+        {
+          "w": 2.75
+        },
+        "4,10\n\n\n\nShift"
+      ],
+      [
+        {
+          "w": 1.25
+        },
+        "4,0\n\n\n\nCtrl",
+        {
+          "w": 1.25
+        },
+        "4,1\n\n\n\nWin",
+        {
+          "w": 1.25
+        },
+        "4,2\n\n\n\nAlt",
+        {
+          "w": 6.25
+        },
+        "4,3\n\n\n\nSpace",
+        {
+          "w": 1.25
+        },
+        "4,4\n\n\n\nAltGr",
+        {
+          "w": 1.25
+        },
+        "4,5\n\n\n\nFn",
+        {
+          "w": 1.25
+        },
+        "4,6\n\n\n\nFn",
+        {
+          "w": 1.25
+        },
+        "4,7\n\n\n\nCtrl"
+      ]
+    ]
+  }
+}
