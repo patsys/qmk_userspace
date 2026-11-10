@@ -12,6 +12,18 @@
         [
             "ranked/nova_n60",
             "neo2_via"
+        ],
+        [
+            "ranked/g65",
+            "neo2"
+        ],
+        [
+            "ranked/g65",
+            "via"
+        ],
+        [
+            "ranked/g65",
+            "neo2_via"
         ]
     ]
 }
